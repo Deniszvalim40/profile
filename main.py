@@ -1,4 +1,4 @@
-import time
+from datetime import time
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -37,7 +37,6 @@ Profissional com grande aptidão em desenvolvimento, com foco na solução de pr
 """
 st.subheader('Resumo profissional')
 with st.container(border=True):
-    
     st.write(stream_data())
 
 
