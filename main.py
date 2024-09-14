@@ -2,7 +2,6 @@ import time
 import numpy as np
 import pandas as pd
 import streamlit as st
-from annotated_text import annotated_text
 
 st.set_page_config(
     page_title="Denis Zorzetti Valim",
@@ -20,14 +19,7 @@ st.subheader("Seja bem-vindo!")
 st.write("Esse site tem como objetivo mostrar meu conhecimento em desenvolvimento de WebApps em Python.")
 st.subheader('Principais skills')
 
-annotated_text(
-    ("Digital Solutions", " "),
-    " | ", ("Desenvolvedor Python ", ""),
-    " | ", ("Analista de Dados  ", "*"),
-    " | ", ("Automação  ", " "),
-    " | ", ("Desenvolvedor Blockchain", " "),
-    "."
-)
+st.write("Digital Solutions | Desenvolvedor Python | Analista de Dados | Automação | Desenvolvedor Blockchain")
 
 def stream_data():
     # Gerar palavras uma por uma com delay
