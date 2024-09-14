@@ -25,7 +25,7 @@ def stream_data():
     # Gerar palavras uma por uma com delay
     for word in texto_resumo.split(" "):
         yield word + " "
-        time.sleep(0.1)
+        time.sleep(0.02)
 
 texto_resumo = """
 Profissional com grande aptidão em desenvolvimento, com foco na solução de problemas de negócios, experiência de mais de 18 anos no ramo automobilístico e toda cadeia logística. Conhecedor de diversas linguagens de programação: Python, SQL, HTML, RPA, JavaScript, VBA, Solidity, Node.js e JSON. Capacitado em análise de dados e desenvolvimento de automação de relatórios e dashboards, com conhecimento em programação de Smart Contracts na rede Ethereum. Habilidades avançadas em softwares corporativos (SAP - MM, SD e WM, formação ABAP na academia SAP), desenvolvimento de scripts via VBA, Excel Avançado e Python, utilização de ferramentas de business intelligence (Power BI, QLink), GKO (pagamentos de fretes) e SharePoint. Atualmente me dedico a adquirir novos conhecimentos na tecnologia de blockchain voltada ao setor logístico.
